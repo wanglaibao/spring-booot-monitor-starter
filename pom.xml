@@ -50,6 +50,13 @@
     </dependencyManagement>
 
     <dependencies>
+        <!--
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        -->
+
         <!--begin: the dependency below allows us to use the proper annotations to create our own (conditional) configuration classes -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
