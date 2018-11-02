@@ -9,6 +9,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <name>spring-boot-starter-monitor</name>
+    <description>spring boot starter monitor</description>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -16,6 +19,24 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <prometheus.version>0.0.26</prometheus.version>
     </properties>
+
+    <developers>
+        <developer>
+            <id>wanglaibao</id>
+            <name>小宝在杭州</name>
+            <email>1131751437@qq.com</email>
+            <url>https://github.com/wanglaibao</url>
+            <roles>
+                <role>Coder</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:wanglaibao/spring-boot-starter-monitor.git</connection>
+        <developerConnection>scm:git:git@github.com:wanglaibao/spring-boot-starter-monitor.git</developerConnection>
+        <url>https://github.com/wanglaibao/spring-boot-starter-monitor</url>
+    </scm>
 
     <dependencies>
         <dependency>
